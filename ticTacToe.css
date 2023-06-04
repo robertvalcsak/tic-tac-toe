@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: rgb(176, 174, 174);
+    font-family: 'Black Ops One', cursive;
   }
   
   main {
@@ -13,22 +15,79 @@ body {
   
   #board {
     margin: 10px auto;
-    height: 720px;
-    width: 720px;
+    box-shadow: black 5px 5px 10px;
   }
 
   .cell {
+    color: black;
+    background-color: whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
-    border: 1px solid black;
-    width: 70px;
-    height: 70px;
+    font-size: 32px;
+    border: 0.5px solid black;
+    width: 4vw;
+    height: 4vw;
+    font-family: 'Press Start 2P', cursive;
+    padding-left: 3px;
+  }
+
+  .cell:hover {
+    background-color: rgba(176,174,174);
   }
 
   .row {
     display: flex;
   }
 
-  
+  .gameName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameName h1 {
+  height: 30px;
+  position: relative;
+}
+
+.logout {
+  position: absolute;
+  max-width: fit-content;
+  height: 25px;
+  right: 50px;
+  border-radius: 25px;
+  background-color: whitesmoke;
+  border-color: whitesmoke ;
+  box-shadow: black 5px 5px 10px;
+  font-family: 'Black Ops One', cursive;
+}
+
+.gameArea {
+  display: flex;
+  width: fit-content;
+  margin: auto;
+  gap: 300px;
+}
+
+.status {
+  max-width: fit-content;
+  margin: auto;
+}
+
+.gameInfo {
+  max-width: fit-content;
+  margin: auto;
+  font-weight: 700;
+}
+
+.btn {
+  max-width: fit-content;
+  margin: auto;
+  border-radius: 25px;
+  height: 25px;
+  background-color: whitesmoke;
+  border-color: whitesmoke;
+  box-shadow: black 5px 5px 10px;
+  font-family: 'Black Ops One', cursive;
+}
