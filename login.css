@@ -19,7 +19,13 @@ section {
     border-radius: 25px;
     box-shadow: gray 5px 5px 10px;
     background-color: rgba(255, 255, 240, 0.4);
-   
+    color: yellow;  
+}
+
+.login-box input {
+    text-align: center;
+    color: yellow;
+    background-color: black;
 }
 
 .login-form {
@@ -29,3 +35,15 @@ section {
 
 }
 
+.login-btn {
+    margin: 25px 0px ;
+    border-radius: 25px;
+    box-shadow: black 5px 5px 10px;
+    background-color: aquamarine;
+    border-color: aquamarine;
+}
+
+.error-message {
+    text-align: center;
+    color: red;
+}
